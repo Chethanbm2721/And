@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="426dp"
+        android:layout_height="114dp"
+        android:background="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="419dp"
+        android:layout_height="128dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="114dp"
+        android:layout_height="51dp"
+        android:onClick="convert"
+        android:text="CONVERT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.4"
+        android:text="TEXT TO SPEECH"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <EditText
+        android:id="@+id/enter"
+        style="@style/Base.CardView"
+        android:layout_width="306dp"
+        android:layout_height="73dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="Enter text here"
+        android:inputType="textPersonName"
+        android:shadowColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="418dp"
+        android:layout_height="82dp"
+        android:background="@drawable/ic_wave__3_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="121dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="419dp">
+
+        <Button
+            android:id="@+id/button2"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="267dp"
+            android:layout_height="match_parent"
+            android:background="#8AFFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx="100"
+            android:shadowDy="100"
+            android:text="Button" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="127dp"
+        android:layout_height="97dp"
+        app:cardBackgroundColor="?attr/colorAccent"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="226dp"
+        android:layout_height="115dp"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="276dp">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
